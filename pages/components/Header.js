@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../../styles/Home.module.css'
-import Image from '../../images/avator.png';
 function Header() {
   return (
     <div className={styles.headercontainer}>
