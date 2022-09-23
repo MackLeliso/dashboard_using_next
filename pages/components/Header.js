@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Home.module.css'
-import Image from '../../images/avator.png'
+import Image from '../../images/avator.png';
 function Header() {
   return (
     <div className={styles.headercontainer}>
@@ -13,7 +13,7 @@ function Header() {
         </div>
       </div>
       <div className={styles.profile}>
-        <img src = {Image} alt ='profile' className={styles.image} />
+        <img src = 'https://www.pngitem.com/pimgs/m/78-786293_1240-x-1240-0-avatar-profile-icon-png.png' alt ='profile' className={styles.image}/>
       </div>
     </div>
   )
